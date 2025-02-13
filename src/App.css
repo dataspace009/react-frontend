@@ -1,0 +1,55 @@
+.content {
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 2vh 10vw;
+}
+
+.page{
+    width: 100%;
+    padding: 60px;
+}
+
+.navbar{
+    color: #545871;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    border-bottom: #545871 solid 1px;
+    
+}
+
+.nav-link{
+    color: #545871;
+}
+
+.sign-page{
+    max-width: 500px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+
+.avatar{
+    height: 30px;
+    border-radius: 15px;
+    display: flex; 
+    align-items: center;
+
+
+}
+
+.avatar>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
